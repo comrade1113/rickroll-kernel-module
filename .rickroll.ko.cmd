@@ -1,0 +1,1 @@
+cmd_/home/yegor/development/kernel/rickroll.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 --build-id=sha1  -T ./scripts/module-common.lds -o /home/yegor/development/kernel/rickroll.ko /home/yegor/development/kernel/rickroll.o /home/yegor/development/kernel/rickroll.mod.o;  true

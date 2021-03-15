@@ -1,0 +1,1 @@
+cmd_/home/yegor/development/kernel/Module.symvers := sed 's/ko$$/o/' /home/yegor/development/kernel/modules.order | scripts/mod/modpost  -a   -o /home/yegor/development/kernel/Module.symvers -e -i Module.symvers   -T -
